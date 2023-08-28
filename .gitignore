@@ -35,7 +35,7 @@ logs/
 saves/
 usercache.json
 config/
-data/
+
 mods/
 options.txt
 
@@ -45,3 +45,4 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+*.dat
