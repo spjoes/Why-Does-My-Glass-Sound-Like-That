@@ -31,6 +31,13 @@ bin/
 # fabric
 
 run/
+logs/
+saves/
+usercache.json
+config/
+data/
+mods/
+options.txt
 
 # java
 

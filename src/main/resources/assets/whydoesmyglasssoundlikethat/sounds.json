@@ -1,0 +1,11 @@
+{
+  "silktouch_glass_break": {
+    "sounds": [
+      "whydoesmyglasssoundlikethat:silktouch_break1",
+      "whydoesmyglasssoundlikethat:silktouch_break2",
+      "whydoesmyglasssoundlikethat:silktouch_break3",
+      "whydoesmyglasssoundlikethat:silktouch_break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  }
+}
