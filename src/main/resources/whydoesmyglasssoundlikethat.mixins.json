@@ -3,7 +3,8 @@
 	"package": "com.split.whydoesmyglasssoundlikethat.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"BlockMixin"
+		"BlockMixin",
+		"TitleScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
