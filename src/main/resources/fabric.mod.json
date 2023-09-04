@@ -3,9 +3,9 @@
 	"id": "whydoesmyglasssoundlikethat",
 	"version": "${version}",
 	"name": "Why Does My glass Sound Like That",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Makes it so when you break glass with a silk touch pickaxe it wont break your ear drums",
 	"authors": [
-		"Me!"
+		"IAmThePerson"
 	],
 	"contact": {
 		"homepage": "https://persn.dev/"
@@ -23,7 +23,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.14.22",
-		"minecraft": ">=1.20",
+		"minecraft": ">=1.19.3",
 		"java": ">=17",
 		"fabric": "*"
 	},
