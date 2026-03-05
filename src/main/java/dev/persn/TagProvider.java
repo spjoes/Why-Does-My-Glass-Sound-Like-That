@@ -2,12 +2,8 @@ package dev.persn;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.tag.TagKey;
-import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -16,13 +12,9 @@ public class TagProvider extends FabricTagProvider.BlockTagProvider {
     public TagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
-
-    public static final TagKey<Block> SILK_TOUCH_ALTERED_BREAK_SOUND = TagKey.of(RegistryKeys.BLOCK, Identifier.of("wdmgslt:silk_touch_altered_break_sound"));
-
-
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        getOrCreateTagBuilder(SILK_TOUCH_ALTERED_BREAK_SOUND)
+        valueLookupBuilder(ModTags.SILK_TOUCH_ALTERED_BREAK_SOUND)
             .add(Blocks.GLASS)
             .add(Blocks.GLASS_PANE)
             .add(Blocks.TINTED_GLASS)
